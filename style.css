@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #090e36;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow-x: hidden;
+  font-family: poppins;
+}
+@media screen and (min-width: 400px) and (max-width: 700px){
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #090e36, -14px -14px 20px #090e36;
+  padding-top: 150px;
+}
+h4{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
